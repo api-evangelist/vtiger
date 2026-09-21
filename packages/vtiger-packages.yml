@@ -1,0 +1,11 @@
+generated: 2026-09-21
+method: searched
+source: https://registry.npmjs.org/vtiger
+packages:
+  - name: vtiger
+    registry: npm
+    url: https://www.npmjs.com/package/vtiger
+    language: javascript
+    official: true
+    version: 0.1.6
+    published: 2023-05-10

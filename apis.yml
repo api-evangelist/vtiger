@@ -1,23 +1,90 @@
 aid: vtiger
+
 name: Vtiger
-description: 'Vtiger is a company surfaced via the API Evangelist harvest backlog (source: crm) and added
-  to the network as a stub for full-pipeline profiling.'
+
+description: Vtiger provides a comprehensive AI‑powered CRM platform that helps businesses manage sales, marketing, support, and automation. The
+  solution offers features such as lead and contact management, sales pipelines, AI‑driven analytics, customizable dashboards, and a low‑code
+  app builder. Vtiger aims to streamline customer relationships and improve productivity for companies of all sizes, integrating with various
+  third‑party services and providing a cloud‑based, scalable architecture.
+
 url: https://raw.githubusercontent.com/api-evangelist/vtiger/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:crm
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+
+x-tier-reason: enrichment pass 2026-09-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-21'
+
 modified: '2026-09-21'
+
 tags:
 - Company
-apis: []
+- CRM
+- AI
+- Sales
+- Automation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: TermsOfService
+  url: https://www.vtiger.com/policy-legal-center/terms-of-service/
+- type: Security
+  url: security/vtiger-vulnerability-disclosure.yml
+- type: WellKnown
+  url: well-known/vtiger-well-known.yml
+- type: SDKs
+  url: packages/vtiger-packages.yml
+- type: Packages
+  url: packages/vtiger-packages.yml
+- type: Support
+  url: https://help.vtiger.com
+- type: Login
+  url: https://crmaccess.vtiger.com/log-in/?mode=continue
+- type: ChangeLog
+  url: https://www.vtiger.com/whats-new/
+- type: GettingStarted
+  url: https://www.vtiger.com/docs/administrator-settings-guide/picklist-dependency
+- type: GitHubOrganization
+  url: https://github.com/vtiger
+- type: VulnerabilityDisclosure
+  url: security/vtiger-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/vtiger-domain-security.yml
 - type: Website
   url: https://vtiger.com/
+- type: DeveloperPortal
+  url: https://www.vtiger.com/developers
+- type: Documentation
+  url: https://www.vtiger.com/docs
+- type: Blog
+  url: https://www.vtiger.com/blog
+- type: Pricing
+  url: https://www.vtiger.com/pricing
+- type: PrivacyPolicy
+  url: https://www.vtiger.com/privacy
+
+apis:
+- name: Vtiger GraphQL API
+  description: GraphQL endpoint for Vtiger CRM
+  humanURL: https://code.vtiger.com/api/graphql
+  baseURL: https://code.vtiger.com/api
+  properties: []
+  aid: vtiger:vtiger-graphql-api
+
+x-enrichment:
+  date: '2026-09-21'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

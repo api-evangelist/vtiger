@@ -1,0 +1,89 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.vtiger.com/pricing/
+sources:
+- https://www.vtiger.com/pricing/
+- https://www.vtiger.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: open-core
+  method: page
+  read: '2026-10-07'
+  evidence: OPEN SOURCE Vtiger Open Source Download
+  free_edition: Vtiger Open Source
+  managed_tier: One Growth
+published: true
+note: 'Vtiger CRM pricing page: per-user tiers with Standard and Single App licenses; yearly/monthly toggle
+  ("Save upto 34%"). Prices shown are those displayed in the page text. Local taxes extra. Booster Packs
+  add-ons mentioned without prices; open source edition linked in footer but not priced here.'
+plan_count: 8
+currency: USD
+plans:
+- name: One Pilot
+  price_text: US$0
+  price: 0
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Max users - 10, Max records - 3000, 1000 Emails/month, Storage 3 GB
+- name: One Growth - Standard User
+  price_text: $ 12 / user / month
+  price: 12
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Max users - 15, Max records - 100,000, 5000 Emails/month or 500 Emails/user
+- name: One Professional - Standard User
+  price_text: $ 30 / user / month
+  price: 30
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 20,000 Emails/month or 2000 Emails/user
+- name: One Enterprise - Standard User
+  price_text: $ 42 / user / month
+  price: 42
+  currency: USD
+  period: month
+  unit: user
+- name: One AI - Standard User
+  price_text: $ 50 / user / month
+  price: 50
+  currency: USD
+  period: month
+  unit: user
+- name: One Professional - Single App User
+  price_text: $ 20 / user / month
+  price: 20
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Full access to one app + view-only access to the others
+- name: One Enterprise - Single App User
+  price_text: $ 30 / user / month
+  price: 30
+  currency: USD
+  period: month
+  unit: user
+- name: One AI - Single App User
+  price_text: $ 38 / user / month
+  price: 38
+  currency: USD
+  period: month
+  unit: user
+rate_limit_statements:
+- Max users - 10
+- Max records - 3000
+- Max users - 15
+- Max records - 100,000
+- Email Campaigns 1000 Emails/month
+- Campaigns 5000 Emails/month or 500 Emails/user
+- 20,000 Emails/month or 2000 Emails/user
+- Storage 3 GB
+- '* One Standard User is minimum'

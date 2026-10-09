@@ -1,0 +1,36 @@
+# Front Door AI Index — vtiger — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: vtiger
+  lexicon_version: '1.0'
+  probed_at: '2026-09-25'
+  host: vtiger.com
+  final_host: www.vtiger.com
+  ownership: own
+  owner: vtiger
+  shares_host_with: null
+  inherited_from: null
+  alias_of: null
+  verdict: scored
+  score: 21
+  band: 5
+  band_label: prominent
+  host_score: 21
+  density: 10.38
+  words: 2023
+  tiers:
+    agentic: 3
+    core: 18
+    model: 0
+  ambiguous: 15
+  top_terms:
+    AI: 15
+    automation: 11
+    agent: 2
+    artificial intelligence: 2
+    intelligence: 2
+    AI agent: 1
+    chatbot: 1
+    generative ai: 1
+    prompts: 1

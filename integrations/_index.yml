@@ -54,3 +54,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: vtiger-xero-own
+  label: Xero (own)
+  partner: xero
+  partner_name: Xero (own)
+  category: CRM and marketing
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://apps.xero.com/nz/app/vtiger-crm
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
